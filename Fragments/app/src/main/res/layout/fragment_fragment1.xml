@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.fragments.fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalScrollView" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000">
+
+            <pl.droidsonroids.gif.GifTextView
+                android:layout_width="365dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/mer"
+                />
+
+
+            <ImageView
+                android:layout_width="363dp"
+                android:layout_height="606dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/mer1" />
+            <ImageView
+                android:layout_width="363dp"
+                android:layout_height="606dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/mercury2" />
+            <ImageView
+                android:layout_width="363dp"
+                android:layout_height="606dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/mer3" />
+            <ImageView
+                android:layout_width="363dp"
+                android:layout_height="606dp"
+                android:id="@+id/imageView6"
+                android:src="@drawable/mercury5" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>
